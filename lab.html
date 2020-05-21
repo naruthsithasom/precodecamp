@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab4.1 html structure</title>
+</head>
+
+<body>
+  <p>1.ให้หาว่า attribute ของ tag ต่อไปนี้มี อะไรบ้างและใช้งานอย่างไร</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Tag</th>
+        <th>Attributes</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><i>&lt;h&gt;</i></td>
+        <td>
+          <h1>h1</h1>
+          <h2>h2</h2>
+          <h3>h3</h3>
+          <h4>h4</h4>
+          <h5>h5</h5>
+          <h6>h6</h6>
+        </td>
+        <td>
+          <p>ขนาดตัวอักษรของHeadline โดยที่ &lt;h1&gt; มีขนาดใหญ่ที่สุดและ &lt;h6&gt; ขนาดเล็กสุด</p>
+          <h1>h1</h1>
+          <h2>h2</h2>
+          <h3>h3</h3>
+          <h4>h4</h4>
+          <h5>h5</h5>
+          <h6>h6</h6>
+        </td>
+      </tr>
+      <tr>
+        <td><i>&lt;p&gt;</i></td>
+        <td>&lt;p&gt;</td>
+        <td>จะใช้เมื่อมีการขึ้นต้นย่อหน้า หรือ เริ่ม paragraph ใหม่</td>
+      </tr>
+      <tr>
+        <td><i>&lt;div&gt;</i></td>
+        <td>&lt;div&gt;</td>
+        <td>division ทำหน้าที่ครอบcontent สามารถจัดรูปแบบcontentนั้นๆได้</td>
+      </tr>
+      <tr>
+        <td><i>&lt;image&gt;</i></td>
+        <td>alt,crossorigin,height,ismap,longdesc,referrerpolicy,sizes,src,srcset,usemap,width</td>
+        <td>
+          <p>แสดงผลรูปภาพ</p>
+          <img src="https://www.w3schools.com/html/pic_trulli.jpg" alt="place">
+        </td>
+      </tr>
+      <tr>
+        <td><i>&lt;a&gt;</i></td>
+        <td>download,href,hreflang,media,ping,referrerpolicy,rel,target,type</td>
+        <td>
+          <p>ใช้สำหรับLinkไปยังpageต่างๆ <a href="https://github.com/naruthsithasom">github</a></p>
+        </td>
+      </tr>
+      <tr>
+        <td><i>&lt;ul&gt;</i></td>
+        <td>ul</td>
+        <td>
+          <ul>
+            <li>แสดงข้อมูลรายการเป็นlist</li>
+            <li>แสดงข้อมูลรายการเป็นlist</li>
+            <li>แสดงข้อมูลรายการเป็นlist</li>
+          </ul>
+        </td>
+      </tr>
+      <tr>
+        <td><i>&lt;ol&gt;</i></td>
+        <td>reversed,start,type</td>
+        <td>
+          <ol>
+            <li>แสดงข้อมูลรายการเป็นตัวเลข(1,2,3..)</li>
+            <li>แสดงข้อมูลรายการเป็นตัวเลข(1,2,3..)</li>
+            <li>แสดงข้อมูลรายการเป็นตัวเลข(1,2,3..)</li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td><i>&lt;table&gt;</i></td>
+        <td>table</td>
+        <td>แสดงผลที่เป็นตาราง</td>
+      </tr>
+      <tr>
+        <td><i>&lt;form&gt;</i></td>
+        <td>accept-charset,action,autocomplete,enctype,method,name,novalidate,rel,target</td>
+        <td>รองรับผลข้อมูลที่มีการInputเข้ามาแล้วทำการส่ง get/post</td>
+      </tr>
+      <tr>
+        <td><i>&lt;button&gt;</i></td>
+        <td>autofocus,disabled,form,formaction,formenctype,formmethod,formnovalidate,formtarget,name,type,value</td>
+        <td><button>ปุ่มแสดงผลให้ทำการกด</button></td>
+      </tr>
+    </tbody>
+  </table>
+  <hr>
+
+  <p>2. ให้หาความเหมือนและความแตกต่างระหว่าง 2 tag ที่กำหนดให้</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Tag</th>
+        <th>ความเหมือน</th>
+        <th>ความแตกต่าง</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>&lt;hr&gt;& &lt;br&gt;</td>
+        <td>สิ่งที่เหมือนกันไว้คั่นบรรบัทใหม่</td>
+        <td>hr แสดงเส้นครั้นบรรทัด br ไม่แสดงเส้นบรรทัด</td>
+      </tr>
+      <tr>
+        <td>&lt;ul&gt;& &lt;ol&gt;</td>
+        <td>แสดงผลกำกับรายการข้อมูล</td>
+        <td>ul แสดงผลรายการเป็นlsit ด้วยสัญลักษณ์Symbol olแสดงข้อมูลรายการเป็นตัวเลข(1,2,3..) </td>
+      </tr>
+      <tr>
+        <td>&lt;select>&gt; & &lt;checkbox&gt; & &lt;radio&gt;</td>
+        <td>ไว้สำหรับเลือกข้อมูลที่เราต้งการ</td>
+        <td> select จะแสดงผลเป็นtap ให้เลือก checkbox จะเป็นช่องสี่เหลี่ยมสามารถเลือกได้มากกว่าหนึ่งช่อง radio
+          จะช่องวงกลมสามารถเลือกเพียงอย่างใดอย่างนึ่งเท่านั้น</td>
+      </tr>
+      <tr>
+        <td>&lt;div&gt; & &lt;span&gt;</td>
+        <td>ไว้สำหรับแสดงผลรูปแบบ content ที่ต้องการ</td>
+        <td>divแสดงผล span จะแสดงในบรรทัดinline</td>
+      </tr>
+      <tr>
+        <td>&lt;style&gt; & &lt;script&gt;</td>
+        <td>ใช้รวมร่วมกับHTML</td>
+        <td>Style เป็นtagของ Css ส่วน Script เป็นtagของ Javascript</td>
+      </tr>
+    </tbody>
+  </table>
+  <hr />
+  <p>3.ให้หาว่า input type มีอะไรบ้างแต่ละ type แตกต่างกันอย่างไร</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Input type</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><input type="button"> </td>
+        <td>button</td>
+      </tr>
+      <tr>
+        <td><input type="checkbox"></td>
+        <td>checkbok</td>
+      </tr>
+      <tr>
+        <td><input type="color"></td>
+        <td>color</td>
+      </tr>
+      <tr>
+        <td><input type="date"></td>
+        <td>date</td>
+      </tr>
+      <tr>
+        <td><input type="datetime-local"></td>
+        <td>local</td>
+      </tr>
+      <tr>
+        <td><input type="email"></td>
+        <td>email</td>
+      </tr>
+      <tr>
+        <td><input type="month"></td>
+        <td>month</td>
+      </tr>
+      <tr>
+        <td><input type="number"></td>
+        <td>number</td>
+      </tr>
+      <tr>
+        <td><input type="password"></td>
+        <td>password</td>
+      </tr>
+      <tr>
+        <td><input type="radio"></td>
+        <td>radio</td>
+      </tr>
+      <tr>
+        <td><input type="range"></td>
+        <td>range</td>
+      </tr>
+      <tr>
+        <td><input type="reset"></td>
+        <td>reset</td>
+      </tr>
+      <tr>
+        <td><input type="search"></td>
+        <td>search</td>
+      </tr>
+      <tr>
+        <td><input type="submit"></td>
+        <td>submit</td>
+      </tr>
+      <tr>
+        <td><input type="tel"></td>
+        <td>tel</td>
+      </tr>
+      <tr>
+        <td><input type="text"></td>
+        <td>text</td>
+      </tr>
+      <tr>
+        <td><input type="time"></td>
+        <td>time</td>
+      </tr>
+      <tr>
+        <td><input type="url"></td>
+        <td>url</td>
+      </tr>
+      <tr>
+        <td><input type="week"></td>
+        <td>week</td>
+      </tr>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
+</html>
