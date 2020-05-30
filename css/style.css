@@ -1,0 +1,14 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: #ff0000;
+}
+
+.header{
+    color: green;
+}
+
+#idText{
+    color: #c234be;
+}
