@@ -1,14 +1,46 @@
+@font-face{
+    font-family:Kanit-Google;
+    src: url(../font/Kanit/Kanit-Regular.ttf)
+}
 body{
-    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
 h1{
-    color: #ff0000;
+    color: #ffffff;
+    margin: 0;
 }
-
+p{
+    font-family: Kanit-Google;
+    font-weight: lighter;
+    font-size: 20px;
+}
 .header{
     color: green;
 }
 
 #idText{
     color: #c234be;
+}
+.img-profile{
+    display: block;
+    margin: auto;
+    border: solid #cccccc 1px;
+    border-radius: 50%;
+    width: 300px;
+    height: 250px;
+    opacity: 0.9;
+
+}
+.bg-content{
+    background-image: url(../image/bg-content.png);
+    width: 100wh;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+}
+.bg-header{
+    background: #ff0000;
+    margin: 0;
+    padding: 0;
 }
