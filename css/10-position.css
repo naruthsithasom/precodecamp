@@ -1,0 +1,45 @@
+/*flex position */
+@font-face{
+    font-family: deancarter;
+    src: url(../font/Kanit/Kanit-Light.ttf);
+}
+body{
+    font-family: deancarter;
+    margin: 0;
+}
+.flex {
+     /*full screen*/
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.flex > div {
+    width: 20vw;
+    height:20vh;
+    text-align:center;
+    background-color: aqua;
+    margin:30px;
+}
+
+.flex > .item3{
+    width: 50vw;
+    height: 20vh;
+    text-align: right;
+    background-color: lightcoral;
+    /* potion:
+    relative เริ่มตำแหน่งจากที่กำหนดไว้
+    absolute เริ่มตำแหน่งมุมบนซ้ายจอ
+    fixed ให้ layout นั่นค้างที่หน้าจอ ใช้รวม absolute
+    */
+    /* position: relative; */
+    position: absolute;
+    position: fixed;
+    /* top: 200px;  */
+    /* right: 200px; */
+    bottom: 0;
+    left: 400px;
+
+    /* */
+
+
+}
