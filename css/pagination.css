@@ -1,0 +1,27 @@
+@font-face{
+    font-family: Chakra;
+    src: url('../font/Chakra/ChakraPetch-Regular.ttf');
+}
+body{
+    margin:0;
+    font-family: Chakra;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color:#ffd300;
+
+    text-align: center;
+}
+
+.header{
+    width: 100vw;
+    height: 30vh;
+    background-color: #ffd300;
+    color: black;
+    font-size: 10em;    
+}
+.pagination {
+    font-size: 2em;
+    display: inline-block;
+}
