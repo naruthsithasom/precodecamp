@@ -1,0 +1,52 @@
+@font-face{
+    font-family: deancarter;
+    src:url('../font/Kanit/Kanit-Regular.ttf')
+}
+body{
+    margin:0;
+    font-family: deancarter;
+    font-size: 18px;
+}
+
+.container{
+    display: grid;
+    /* grid-template-columns: auto auto auto  ;
+    grid-template-rows: 100px 100px 100px 100px; */
+   grid-template-columns: auto auto auto;
+   grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    background-color: lightblue;
+}
+.container > div {
+ background-color: green;
+ text-align: right;
+}
+   /* min-width ขั้นตำการแสดงโชว์ 800px 
+   ถ้าscreen display  screen>=800px ทำงาน  
+   ถ้าscreen display  screen<=799px หยุดทำงาน 
+   */
+/* @media screen and (min-width:800px){ 
+    .container{
+        grid-template-columns: auto auto ;
+        grid-auto-rows: 100px 100px  100px  100px  100px;
+        background-color: indigo;
+    }
+    .container > div {
+        background-color: maroon;
+    }
+}  */
+
+ /* max-width 
+   ถ้าscreen display  screen<=800px ทำงาน  
+   ถ้าscreen display  screen>=799px หยุดทำงาน
+   */
+@media screen and (max-width:800px){
+    .container{
+        grid-template-columns: auto auto;
+        background-color: orangered;
+    }
+    .container > .item5{
+        grid-column: 1/6;
+        background-color: tan;
+    }
+}
